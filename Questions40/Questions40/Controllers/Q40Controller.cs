@@ -6,16 +6,15 @@ using System.Web.Mvc;
 
 namespace Questions40.Controllers
 {
-    public class IndexController : Controller
+    public class Q40Controller : Controller
     {
         // GET: Index
-        public ActionResult Index()
+        public ActionResult Q1()
         {
-            return Content("Hello, World!");
+            return View();
         }
-        public ActionResult Show()
+        public ActionResult Q2()
         {
-            ViewBag.Message = "Hello, World!";
             return View();
         }
     }
