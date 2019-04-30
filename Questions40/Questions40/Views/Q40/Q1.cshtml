@@ -8,9 +8,31 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Q1</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q1.js")" type="text/javascript"></script>
 </head>
 <body>
     <h1>Q1</h1>
-    @Html.ActionLink("トップに戻る", "Index", "Home")
+    <div>問題：ある整数に対し、3が含まれているかどうかを判定するプログラムを作成しなさい。</div>
+    <div>
+        <div>↓半角で整数を入力してください</div>
+        <input type="text" id="num" />
+    </div>
+    <div>
+        <div>↓判定方法を選択してください</div>
+        <div id="how_radios">
+            <input type="radio" name="how" value="includes" checked="checked" />includes
+            <input type="radio" name="how" value="match" />match
+            <input type="radio" name="how" value="indexOf" />indexOf
+            <input type="radio" name="how" value="search" />search
+            <input type="radio" name="how" value="test" />test
+        </div>
+    </div>
+    <button id="judge">判定する</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
 </body>
 </html>
