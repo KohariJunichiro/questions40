@@ -19,6 +19,7 @@
         
     });
 });
+//includesメソッド
 function has3ver1(num) {
     if (num.includes(3)) {
         $("#result_text").text("3が含まれています");
@@ -26,6 +27,7 @@ function has3ver1(num) {
         $("#result_text").text("3が含まれていません");
     }
 }
+//matchメソッド
 function has3ver2(num) {
     if (num.match(/3/) !== null) {
         $("#result_text").text("3が含まれています");
@@ -33,6 +35,7 @@ function has3ver2(num) {
         $("#result_text").text("3が含まれていません");
     }
 }
+//indexOfメソッド
 function has3ver3(num) {
     if (num.indexOf("3") !== -1) {
         $("#result_text").text("3が含まれています");
@@ -40,6 +43,7 @@ function has3ver3(num) {
         $("#result_text").text("3が含まれていません");
     }
 }
+//searchメソッド
 function has3ver4(num) {
     if (num.search("3") !== -1) {
         $("#result_text").text("3が含まれています");
@@ -47,6 +51,7 @@ function has3ver4(num) {
         $("#result_text").text("3が含まれていません");
     }
 }
+//testメソッド
 function has3ver5(num) {
     if (/3/.test(num)) {
         $("#result_text").text("3が含まれています");

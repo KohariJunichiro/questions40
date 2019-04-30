@@ -1,0 +1,49 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q3</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q3.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q3</h1>
+    <div>
+        基数変換された数値を比較し結果を表示するプログラムを作成しなさい。
+    </div>
+    <div>
+        第一引数は第二引数の基数(進数)を指定(2<=16)を指定
+        第二引数、値A
+        第三引数は第四引数の基数(進数)を指定(2<=16)を指定
+        第四引数、値B
+        ABどちらが大きいか出力し10進数での比較も出力すること
+    </div>
+    <div>
+        <div>↓第一引数を入力してください</div>
+        <input type="text" id="num1" />
+    </div>
+    <div>
+        <div>↓第二引数を入力してください</div>
+        <input type="text" id="num2" />
+    </div>
+    <div>
+        <div>↓第三引数を入力してください</div>
+        <input type="text" id="num3" />
+    </div>
+    <div>
+        <div>↓第四引数を入力してください</div>
+        <input type="text" id="num4" />
+    </div>
+    <button id="judge">判定する</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>
