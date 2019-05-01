@@ -155,6 +155,8 @@
     <Content Include="Scripts\js\q3.js" />
     <Content Include="Scripts\js\q4.js" />
     <Content Include="Scripts\js\q5.js" />
+    <Content Include="Scripts\js\q6.js" />
+    <Content Include="Scripts\js\q7.js" />
     <Content Include="Scripts\moment\moment-timezone-utils.js" />
     <Content Include="Scripts\moment\moment-timezone-with-data-2012-2022.js" />
     <Content Include="Scripts\moment\moment-timezone-with-data-2012-2022.min.js" />
@@ -183,6 +185,8 @@
     <Content Include="Views\Q40\Q3.cshtml" />
     <Content Include="Views\Q40\Q4.cshtml" />
     <Content Include="Views\Q40\Q5.cshtml" />
+    <Content Include="Views\Q40\Q6.cshtml" />
+    <Content Include="Views\Q40\Q7.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

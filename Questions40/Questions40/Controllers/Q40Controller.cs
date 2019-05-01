@@ -29,5 +29,13 @@ namespace Questions40.Controllers
         {
             return View();
         }
+        public ActionResult Q6()
+        {
+            return View();
+        }
+        public ActionResult Q7()
+        {
+            return View();
+        }
     }
 }

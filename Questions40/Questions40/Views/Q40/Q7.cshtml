@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q7</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q7.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q7</h1>
+    <div>
+        問題：０からある特定の数値の間までに含まれている素数を全て出力する
+        プログラムを作成しなさい。
+    </div>
+    <div>
+        <div>↓半角で[0-9]の文字列を入力してください</div>
+        <input type="text" id="num" />
+    </div>
+    <button id="judge">判定する</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>

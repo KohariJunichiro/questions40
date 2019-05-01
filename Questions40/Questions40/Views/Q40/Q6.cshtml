@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q2</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q6.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q6</h1>
+    <div>
+        問題：複数の整数を引数として与えた際、数を並び替えることによって、
+        最大数を返すプログラムを作成しなさい。
+    </div>
+    <div>
+        <div>↓カンマ区切りで複数の整数を入力してください</div>
+        <input type="text" id="num" />
+    </div>
+    <button id="judge">判定する</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>
