@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q9</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q9.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q9</h1>
+    <div>
+        問題：階乗を計算するプログラムを作成しなさい。
+    </div>
+    <div>
+        <div>↓半角で30以下の数値を入力してください</div>
+        <input type="text" id="num" />
+    </div>
+    <button id="calculate">計算する</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>

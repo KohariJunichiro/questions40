@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q8</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q8.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q8</h1>
+    <div>
+        問題：フィボナッチ数列をコンソール出力するプログラムを作成しなさい。
+        最初の２つの項を 0、1 とし、1000 まで（ 1000 以下の項）を
+        出力するものとする。
+        ※画面に出力します。
+    </div>
+    <button id="go">出力する</button>
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>
