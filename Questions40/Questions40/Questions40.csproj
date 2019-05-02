@@ -151,6 +151,7 @@
     <Content Include="Scripts\jQuery\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\jQuery\modernizr-2.8.3.js" />
     <Content Include="Scripts\js\q1.js" />
+    <Content Include="Scripts\js\q10.js" />
     <Content Include="Scripts\js\q2.js" />
     <Content Include="Scripts\js\q3.js" />
     <Content Include="Scripts\js\q4.js" />
@@ -191,6 +192,7 @@
     <Content Include="Views\Q40\Q7.cshtml" />
     <Content Include="Views\Q40\Q8.cshtml" />
     <Content Include="Views\Q40\Q9.cshtml" />
+    <Content Include="Views\Q40\Q10.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
