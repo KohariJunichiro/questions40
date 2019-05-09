@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Q36</title>
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/css/question1.css")">
+    <script src="@Url.Content("~/Scripts/jQuery/jquery-3.3.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/js/q36.js")" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Q36</h1>
+    <div>
+        問題：誕生日占いの結果を表示するプログラムを作成しなさい。
+    </div>
+    <div>
+        ・入力形式はYYYY/MM/DDとする
+        ・以下の手順で計算した値を出す
+        ①、入力された年月日を一桁づつに分けすべて足す
+        ②、足した結果の数字をまた一桁づつに分けすべて足す
+        ③、②の手順を一桁になるまで繰り返す
+        ・計算した結果の値に応じて以下の結果を表示する
+        1：アイデアマン
+        2：平和主義
+        3：お祭り好き
+        4：保守的
+        5：パイオニア
+        6：ロマンチスト
+        7：インテリ
+        8：大物
+        9：エンターテイナー
+    </div>
+    <div>
+        <div>↓半角で生年月日をYYYY/MM/DDの形式で入力してください</div>
+        <input type="text" id="birthday" />
+    </div>
+    <button id="tellFortunes">占う</button><br />
+    <div id="result">
+        <p id="result_text">結果は...</p>
+    </div>
+    <div>@Html.ActionLink("トップに戻る", "Index", "Home")</div>
+</body>
+</html>

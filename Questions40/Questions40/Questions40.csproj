@@ -154,6 +154,7 @@
     <Content Include="Scripts\js\q10.js" />
     <Content Include="Scripts\js\q2.js" />
     <Content Include="Scripts\js\q3.js" />
+    <Content Include="Scripts\js\q36.js" />
     <Content Include="Scripts\js\q4.js" />
     <Content Include="Scripts\js\q5.js" />
     <Content Include="Scripts\js\q6.js" />
@@ -193,6 +194,7 @@
     <Content Include="Views\Q40\Q8.cshtml" />
     <Content Include="Views\Q40\Q9.cshtml" />
     <Content Include="Views\Q40\Q10.cshtml" />
+    <Content Include="Views\Q40\Q36.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

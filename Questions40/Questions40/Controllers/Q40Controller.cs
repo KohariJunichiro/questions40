@@ -49,5 +49,9 @@ namespace Questions40.Controllers
         {
             return View();
         }
+        public ActionResult Q36()
+        {
+            return View();
+        }
     }
 }
